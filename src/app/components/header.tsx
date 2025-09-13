@@ -18,7 +18,7 @@ function Header() {
         </div>
         <a className='hover:text-blue-500 transition duration-300 font-bold' href='#aboutme'>About Me</a>
         <a className='hover:text-blue-500 transition duration-300 font-bold' href='#projects'>Projects</a>
-        <Link className='hover:text-blue-500 transition duration-300 font-bold' href={''}>Links</Link>
+        <Link className='hover:text-blue-500 transition duration-300 font-bold' href="#links">Links</Link>
       </div>
       
       <div className='hidden md:flex flex-row justify-around w-50'>
