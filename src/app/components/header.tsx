@@ -13,12 +13,12 @@ function Header() {
   return (
     <header className='relative flex h-24 w-full items-center justify-between bg-popover px-3 sm:px-8'>
       <div className='hidden md:flex flex-row gap-15 ml-20 w-200'>
-        <div className="font-bold text-xl bg-gradient-to-r from-blue-800 to-blue-400 bg-clip-text text-transparent">
+        <div className="font-bold text-xl bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
           Portfolio
         </div>
-        <a className='hover:text-blue-800 transition duration-300' href='#aboutme'>About Me</a>
-        <a className='hover:text-blue-800 transition duration-300' href='#projects'>Projects</a>
-        <Link className='hover:text-blue-800 transition duration-300' href={''}>Links</Link>
+        <a className='hover:text-blue-500 transition duration-300 font-bold' href='#aboutme'>About Me</a>
+        <a className='hover:text-blue-500 transition duration-300 font-bold' href='#projects'>Projects</a>
+        <Link className='hover:text-blue-500 transition duration-300 font-bold' href={''}>Links</Link>
       </div>
       
       <div className='hidden md:flex flex-row justify-around w-50'>

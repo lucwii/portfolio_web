@@ -135,9 +135,9 @@ const ExampleContent = () => (
       <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
       I specialize in React, Next.js, and TailwindCSS, with experience integrating Supabase for authentication, databases, and real-time features. My work focuses on creating smooth user experiences, scalable codebases, and visually appealing interfaces.
 Some of my projects include:
-🛒 A React + Supabase e-commerce app with live chat, secure authentication, and a sleek, responsive design.
-📝 AI Notes (Next.js + Supabase) – an AI-powered note-taking app where users can query their notes with an intelligent assistant, complete with dark mode and modern UI components.
-⚽ A Premier League fantasy tracker (in progress) built with React + Spring Boot, where fans can manage teams, track stats, and visualize data interactively.
+ A React + Supabase e-commerce app with live chat, secure authentication, and a sleek, responsive design.
+ AI Notes (Next.js + Supabase) – an AI-powered note-taking app where users can query their notes with an intelligent assistant, complete with dark mode and modern UI components.
+ A Premier League fantasy tracker (in progress) built with React + Spring Boot, where fans can manage teams, track stats, and visualize data interactively.
 
       </p>
       {/* <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
