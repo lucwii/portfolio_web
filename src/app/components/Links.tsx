@@ -70,7 +70,7 @@ const FlipLink = ({ children, href }: { children: string; href: string }) => {
 // ✅ Now RevealLinks can use FlipLink
 export const RevealLinks = () => {
   return (
-    <section id="links" className="grid place-content-center gap-2 bg-slate-900 px-8 py-24 text-slate-900">
+    <section id="links" className="grid place-content-center gap-2 bg-white-900 px-8 py-24 text-white-900">
       <FlipLink href="#">Twitter</FlipLink>
       <FlipLink href="#">Linkedin</FlipLink>
       <FlipLink href="#">Facebook</FlipLink>

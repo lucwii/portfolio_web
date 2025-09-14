@@ -5,6 +5,7 @@ import { ThemeProvider } from "./components/ThemeProvider";
 import HeroSection from "./components/HeroSection";
 import Projects from "./components/Projects";
 import { RevealLinks } from "./components/Links";
+import Contact from "./components/Contact";
 
 export const metadata: Metadata = {
   title: "Luka Milanovic",
@@ -28,7 +29,7 @@ export default function RootLayout({
         <Header />
         <HeroSection />
         <Projects />
-        <RevealLinks />
+        <Contact />
         </ThemeProvider>
       </body>
     </html>
