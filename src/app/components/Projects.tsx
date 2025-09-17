@@ -15,7 +15,8 @@ const Projects = () => {
       featured: true,
       status: "Completed",
       date: "2025",
-      category: "Full Stack"
+      category: "Full Stack",
+      image: '/renova.png'
     },
     {
       title: "AINotes",
@@ -26,7 +27,7 @@ const Projects = () => {
       featured: true,
       status: "In Progress",
       date: "2025",
-      category: "AI"
+      category: "AI",
     },
     {
       title: "Premier League Stats Tracker",
@@ -37,7 +38,8 @@ const Projects = () => {
       featured: true,
       status: "Completed",
       date: "2025",
-      category: "Fullstack"
+      category: "Fullstack",
+      image: "/pl.png"
     },
   ];
 
@@ -82,6 +84,7 @@ const Projects = () => {
 
                 {/* Project Image Placeholder */}
                 <div className="relative h-48 bg-gradient-to-br from-blue-500 to-purple-600 overflow-hidden">
+                  <img src={project.image} alt="" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                   <div className="absolute top-4 left-4 text-white/80 text-sm font-medium">
                     {project.category}
