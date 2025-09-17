@@ -162,9 +162,9 @@ const Projects = () => {
                     </Button>
                   </div>
                   
-                  <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg group-hover:shadow-xl transition-all duration-300">
+                  {/* <Button size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg group-hover:shadow-xl transition-all duration-300">
                     View Details
-                  </Button>
+                  </Button> */}
                 </CardFooter>
               </Card>
             ))}

@@ -23,7 +23,7 @@ const DropDown = ({className}: DropDownProps) => {
     <motion.div animate={open ? "open" : "closed"} className="relative">
       <button
         onClick={() => setOpen((pv) => !pv)}
-        className="flex items-center gap-2 px-3 py-2 rounded-md text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 transition duration-1000"
+        className="flex items-center gap-2 px-3 py-2 rounded-md text-white bg-slate-900"
       >
         <FiMenu className="w-4 h-5" />
         <motion.span variants={iconVariants}>
@@ -39,9 +39,9 @@ const DropDown = ({className}: DropDownProps) => {
       >
         <NavOption setOpen={setOpen} text="About Me" href="#aboutme" />
         <NavOption setOpen={setOpen} text="Projects" href="#projects" />
-        <NavOption setOpen={setOpen} text="Links" href="" />
-        <div className="border-t border-border my-2"></div>
-        <ContactOption setOpen={setOpen} text="Contact Me" />
+        <NavOption setOpen={setOpen} text="Contact" href="#contact" />
+        {/* <div className="border-t border-border my-2"></div>
+        <ContactOption setOpen={setOpen} text="Contact Me" /> */}
       </motion.ul>
     </motion.div>
   );

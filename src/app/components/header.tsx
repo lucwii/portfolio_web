@@ -27,9 +27,16 @@ function Header() {
       </div>
       
       {/* Mobile - samo dropdown */}
+      <div className='md:hidden relative flex h-24 w-full items-center justify-between bg-popover px-3 sm:px-8'>
+      <div>
+      <div className="font-bold text-xl bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+          Portfolio
+        </div>
+      </div>
       <div className='md:hidden w-full flex justify-end gap-3'>
         <DropDown />
         <ModeToggle />
+      </div>
       </div>
     </header>
   )
