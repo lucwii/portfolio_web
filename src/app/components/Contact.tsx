@@ -149,11 +149,11 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold mb-8 text-foreground">
                   Follow Me
                 </h3>
-                <div className="space-y-4 bg-gradient-to-br from-slate-900 to-slate-800 dark:from-slate-800 dark:to-slate-900 p-8 rounded-2xl">
-                  <FlipLink href="https://github.com/yourusername">GitHub</FlipLink>
-                  <FlipLink href="https://linkedin.com/in/yourusername">LinkedIn</FlipLink>
-                  <FlipLink href="https://twitter.com/yourusername">Twitter</FlipLink>
-                  <FlipLink href="https://instagram.com/yourusername">Instagram</FlipLink>
+                <div className="space-y-4  p-8 rounded-2xl">
+                  <FlipLink href="https://github.com/lucwii">GitHub</FlipLink>
+                  <FlipLink href="https://www.linkedin.com/in/luka-milanovic-aaa7b1358/">LinkedIn</FlipLink>
+                  <FlipLink href="https://twitter.com/polumnty">Twitter</FlipLink>
+                  <FlipLink href="https://instagram.com/lucwi_">Instagram</FlipLink>
                 </div>
               </div>
             </div>

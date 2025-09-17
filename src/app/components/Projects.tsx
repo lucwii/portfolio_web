@@ -14,30 +14,30 @@ const Projects = () => {
       liveLink: "#",
       featured: true,
       status: "Completed",
-      date: "2024",
+      date: "2025",
       category: "Full Stack"
     },
     {
-      title: "Portfolio Dashboard",
-      description: "Interactive dashboard for managing portfolio content with analytics, project tracking, and content management system. Features responsive design and dark mode support.",
-      technologies: ["Next.js", "PostgreSQL", "Prisma", "Chart.js"],
-      githubLink: "#",
+      title: "AINotes",
+      description: "AINotes is an intelligent note-taking application built with Next.js and Supabase that features AI integration, allowing users to ask questions about their notes and get contextual answers. The application includes user authentication and a modern UI designed with Tailwind CSS and shadcn components, currently still in active development.",
+      technologies: ["Next.js", "Supabase", "OpenAI API", "ShadCN", "Tailwind"],
+      githubLink: "https://github.com/lucwii/AINotes",
       liveLink: "#",
       featured: true,
       status: "In Progress",
-      date: "2024",
-      category: "Dashboard"
+      date: "2025",
+      category: "AI"
     },
     {
-      title: "AI Task Management App",
-      description: "Intelligent task management application with AI-powered suggestions, priority optimization, and team collaboration features. Includes advanced filtering and analytics.",
-      technologies: ["React.js", "Node.js", "MongoDB", "OpenAI API"],
-      githubLink: "#",
+      title: "Premier League Stats Tracker",
+      description: "I built a full-stack Fantasy Premier League statistics tracker using Spring Boot for the backend API, PostgreSQL for the database and React.js for the frontend interface, with Python data scraping to collect and process player performance statistics from various sources. The application provides real-time player insights, team performance analytics, and personalized recommendations to help users optimize their fantasy football teams and make data-driven decisions.",
+      technologies: ["React.js", "SpringBoot", "PostgreSQL", "Python"],
+      githubLink: "https://github.com/lucwii/PremierLeagueApp",
       liveLink: "#",
       featured: true,
       status: "Completed",
-      date: "2023",
-      category: "AI & Productivity"
+      date: "2025",
+      category: "Fullstack"
     },
   ];
 
