@@ -7,22 +7,22 @@ import { Github, ExternalLink, Eye, Star, Calendar, Code2 } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Live Chatting E-commerce Platform",
-      description: "A modern, full-stack e-commerce platform featuring real-time chat, secure authentication, and seamless shopping experience. Built with cutting-edge technologies for optimal performance.",
-      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Supabase", "Socket.io"],
-      githubLink: "https://github.com/lucwii/renova",
+      title: "AI Project Manager App",
+      description: "An intelligent project management platform inspired by Trello, featuring boards, lists, and cards for task organization. Integrated with Gemini AI to assist users with project insights, task summaries, and smart recommendations. Combines a modern UI with robust backend APIs for real-time collaboration and scalability.",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Spring Boot", "Gemini AI", "Docker", "Postgre SQL"],
+      githubLink: "https://github.com/lucwii/",
       liveLink: "#",
       featured: true,
       status: "Completed",
       date: "2025",
       category: "Full Stack",
-      image: '/renova.png'
+      image: '/pmai.png'
     },
     {
-      title: "AINotes",
-      description: "AINotes is an intelligent note-taking application built with Next.js and Supabase that features AI integration, allowing users to ask questions about their notes and get contextual answers. The application includes user authentication and a modern UI designed with Tailwind CSS and shadcn components, currently still in active development.",
-      technologies: ["Next.js", "Supabase", "OpenAI API", "ShadCN", "Tailwind"],
-      githubLink: "https://github.com/lucwii/AINotes",
+      title: "AI Cover Letter Generator",
+      description: "AI Cover Letter Generator is an intelligent web application that creates personalized, professional cover letters based on a user's resume, job description, and tone preference. It leverages AI to tailor each letter to the specific role while maintaining natural language and coherent structure. The app features a sleek modern UI, user authentication, and export functionality.",
+      technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN", "Gemini AI", "Supabase"],
+      githubLink: "https://github.com/lucwii/",
       liveLink: "#",
       featured: true,
       status: "In Progress",
